@@ -13,6 +13,7 @@
 		31EC5901169BC8D400A6D1B1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31EC58FF169BC8D400A6D1B1 /* Credits.rtf */; };
 		31EC5904169BC8D400A6D1B1 /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EC5903169BC8D400A6D1B1 /* PRHAppDelegate.m */; };
 		31EC5907169BC8D400A6D1B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EC5905169BC8D400A6D1B1 /* MainMenu.xib */; };
+		31EC590F169BC91500A6D1B1 /* PRHTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EC590E169BC91500A6D1B1 /* PRHTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		31EC5902169BC8D400A6D1B1 /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
 		31EC5903169BC8D400A6D1B1 /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
 		31EC5906169BC8D400A6D1B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31EC590D169BC91500A6D1B1 /* PRHTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHTestView.h; sourceTree = "<group>"; };
+		31EC590E169BC91500A6D1B1 /* PRHTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				31EC5902169BC8D400A6D1B1 /* PRHAppDelegate.h */,
 				31EC5903169BC8D400A6D1B1 /* PRHAppDelegate.m */,
 				31EC5905169BC8D400A6D1B1 /* MainMenu.xib */,
+				31EC590D169BC91500A6D1B1 /* PRHTestView.h */,
+				31EC590E169BC91500A6D1B1 /* PRHTestView.m */,
 				31EC58F7169BC8D400A6D1B1 /* Supporting Files */,
 			);
 			path = MouseTrackingAndDraggingTest;
@@ -169,6 +174,7 @@
 			files = (
 				31EC58FD169BC8D400A6D1B1 /* main.m in Sources */,
 				31EC5904169BC8D400A6D1B1 /* PRHAppDelegate.m in Sources */,
+				31EC590F169BC91500A6D1B1 /* PRHTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
